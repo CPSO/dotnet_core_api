@@ -2,8 +2,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace coreapi.DTOS
 {
-    public class CommandCreateDTO
-    {   
+    public class CommandUpdateDTO
+    {
         [Required]
         [MaxLength(250)]
         public string HowTo { get; set; }
